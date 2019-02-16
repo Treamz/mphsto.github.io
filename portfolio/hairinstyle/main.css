@@ -1,0 +1,424 @@
+body {
+	background-color: #222;
+	color: #222;
+}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#top {
+	padding: 100px;
+	background: url("img/bgtop.jpg");
+	
+	min-height: 1000px;
+}
+.topzakaz {
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+
+.toph2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+
+.bcolored {
+	padding: 10px;
+	background-color: #fff;
+	  box-shadow: 5px 5px;
+	  transition: all .4s;
+}
+
+.bcolored:hover {
+padding: 10px;
+	padding: 10px;
+	background-color: #222;
+	color: #fff;
+	  box-shadow: 5px 5px #fff;
+}
+
+.bibcolored {
+font-size: 2em;
+}
+.bcoloredfw {
+   	    display: block;
+    width: 100%;
+	
+	background-color: #fff;
+	  box-shadow: 5px 5px;
+	  transition: all .4s;
+}
+
+
+.bcoloredfw a {
+	padding: 10px;
+ 	display: block;
+    width: 100%;
+    text-decoration: none;
+
+ }
+.bcoloredfw:hover {
+	
+	background-color: #222;
+	color: #fff;
+	  box-shadow: 5px 5px #fff,-5px -5px #66ffff;
+}
+
+.toph2b {
+
+	margin-top: 35px;
+		padding: 10px;
+	background-color: rgba(255,255,255,1);
+	  box-shadow: 5px 5px #222;
+	  transition: all .4s;
+
+}
+
+
+.form-group {
+
+	text-align: center;
+
+}
+
+input {
+	
+	margin: 0 auto;
+}
+button {
+	margin-top: 10px;
+}
+
+
+.boxx {
+	margin-top: 20px;
+}
+
+
+#onas {
+	padding: 10px;
+	background-color: #111;
+}
+
+p {
+	padding: 10px;
+	color: #c7c7c7;
+}
+
+
+.slogan {
+	padding: 50px;
+	color: #fff;
+	background-color: rgba(0,0,0,.0);
+
+}
+.spad {
+background-color: rgba(0,0,0,.5);
+
+	padding: 10px;
+
+}
+
+footer {
+	color: #fff;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+
+}
+.btn {
+	border-radius: 0
+}
+footer a:hover{
+	color: #fff;
+	text-decoration: none;
+
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.social i {
+	padding: 5px 5px;
+	color: #fff;
+}
+
+
+#contacts {
+	background-color: #333;
+	color: #fff;
+}
+.tel {
+	font-size: 2rem;
+}
+.btn-topzakaz {
+	font-size: 2rem;
+}
+.hr {
+	font-size: 4rem;
+}
+.tphon {
+	font-size: 2rem;
+}
+.cena {
+	padding: 2px 5px;
+	float: right;
+	color: #fff;
+	background-color: rgba(0,0,0,.9);
+} 
+
+.hr:before,
+.hr:after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 14rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+
+#uslugi {
+	padding: 60px 100px 100px 100px;
+	background-color: #111;
+}
+
+
+.alert-uslugi {
+    color: #fff;
+    	background-color: #111;
+    	margin: 20px;
+	  box-shadow: -5px -5px #66ffff;
+	  transition: all .4s;
+    border-color: none;
+    border-radius: 0;
+}
+
+.alert-uslugi:hover {
+    color: #3c763d;
+	background-color: #222;
+	color: #fff;
+
+	  box-shadow: -5px -5px #fff,5px 5px #66ffff;
+    border-color: none;
+}
+
+.usbox {
+	margin: 10px 0;
+}
+.usboxt {
+	padding: 10px;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
+
+.vid {
+	overflow: hidden;
+	height: 400px;
+	margin-top: 10px;
+
+}
+
+.gal-container {
+	overflow: hidden;
+}
+#gallery {
+
+}
+
+.bcolored2 {
+	padding: 10px;
+	background-color: #fff;
+	  box-shadow: 5px 5px #111;
+	  transition: all .4s;
+}
+.bcolored2:hover {
+padding: 10px;
+	padding: 10px;
+	background-color: #222;
+	color: #fff;
+	  box-shadow: 5px 5px #fff;
+}
+.gtoptitle {
+	padding: 20px;
+}
+
+.gal-container{
+	padding: 12px;
+}
+.gal-item{
+	overflow: hidden;
+	padding: 3px;
+}
+.gal-item .box{
+	height: 350px;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+}
+.gal-item a:focus{
+	outline: none;
+}
+.gal-item a:after{
+	content:"\e003";
+	font-family: 'Glyphicons Halflings';
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 3px;
+	left: 3px;
+	top: 3px;
+	bottom: 3px;
+	text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.gal-item a:hover:after{
+	opacity: 1;
+}
+.modal-open .gal-container .modal{
+	background-color: rgba(0,0,0,0.4);
+}
+.modal-open .gal-item .modal-body{
+	padding: 0px;
+}
+.modal-open .gal-item button.close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    z-index: 999;
+    right: -12px;
+    top: -12px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 2px solid #fff;
+    line-height: 25px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+}
+.modal-open .gal-item button.close:focus{
+	outline: none;
+}
+.modal-open .gal-item button.close span{
+	position: relative;
+	top: -3px;
+	font-weight: lighter;
+	text-shadow:none;
+}
+.gal-container .modal-dialogue{
+	width: 80%;
+}
+.gal-container .description{
+	position: relative;
+	height: 40px;
+	top: -40px;
+	padding: 10px 25px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	text-align: left;
+}
+.gal-container .description h4{
+	margin:0px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+}
+.gal-container .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 100px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.gal-container .modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+    opacity: 1;
+}
+@media (min-width: 768px) {
+.gal-container .modal-dialog {
+    width: 55%;
+    margin: 50 auto;
+}
+}
+@media (max-width: 768px) {
+    .gal-container .modal-content{
+        height:250px;
+    }
+}
+
+
+.allprice {
+	cursor: pointer;
+}
+
+.fright {
+	float: right;
+}

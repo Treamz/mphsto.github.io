@@ -1,0 +1,126 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.toph2 {
+    width: 100%;
+    text-align: center;
+    line-height: 13px;
+}
+.toph2 h2{
+
+    line-height: 49px;
+}
+.slogan {
+    padding: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,.0);
+}
+.spad {
+    line-height: 49px;
+   width: 100%;
+}
+.hr {
+    font-size: 1.4rem;
+}
+
+.hr:before, .hr:after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 1rem;
+    margin: 0 1.4rem;
+    transform: translateY(-1rem);
+}
+.btn-topzakaz {
+    font-size: 1.7rem;
+}
+#top {
+background-size: cover; 
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#uslugi {
+    padding: 20px;
+    
+}
+
+#top {
+    padding: 20px;
+    background: url(img/bgtop.jpg);
+    min-height: 500px;
+    background-size: cover; 
+}
+
+.toph2 h2 {
+	font-size: 100%;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
