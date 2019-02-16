@@ -1,10 +1,10 @@
 ## Welcome to treamz profile
 
 
-### Верстка
-[Hairinstyle](https://treamz.github.io/hairinstyle.github.io/)
+### Front-End Templates
+[Hairinstyle](https://treamz.github.io/portfolio/hairinstyle/index.html)
 
-[Nadyamaistrenko](https://treamz.github.io/treamz1.github.io/)
+[Nadyamaistrenko](https://treamz.github.io/portfolio/nadya/index.html)
 
 [Checkpoint](https://treamz.github.io/checkpint.github.io/)
 
@@ -12,13 +12,13 @@
 
 [RSPWN](https://treamz.github.io/rspwn.github.io/)
 
-[PERSONAL BLOG](https://treamz.github.io/pblog.github.io/)
+[PERSONAL BLOG](https://treamz.github.io/portfolio/personalBlog/index.html)
 
-[FLAT UI KIT](https://treamz.github.io/flatuikit.github.io/)
+[FLAT UI KIT](https://treamz.github.io/portfolio/UIKit/index.html)
 
-[POZNAN-CITY2LIVE](https://treamz.github.io/poznan.github.io/)
+[POZNAN-CITY2LIVE](https://treamz.github.io/portfolio/poznan/index.html)
 
-[SunTour](https://treamz.github.io/suntour/)
+[SunTour](https://treamz.github.io/portfolio/SunTour/index.html)
 
 
 ### C#
