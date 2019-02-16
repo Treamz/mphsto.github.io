@@ -2,23 +2,26 @@
 
 
 ### Front-End Templates
-[Hairinstyle](https://treamz.github.io/portfolio/hairinstyle/index.html)
+[Zeus](#)
 
-[Nadyamaistrenko](https://treamz.github.io/portfolio/nadya/index.html)
-
-[Checkpoint](https://treamz.github.io/checkpint.github.io/)
-
-[OLIOS](https://treamz.github.io/olios.github.io/)
-
-[RSPWN](https://treamz.github.io/rspwn.github.io/)
-
-[PERSONAL BLOG](https://treamz.github.io/portfolio/personalBlog/index.html)
-
-[FLAT UI KIT](https://treamz.github.io/portfolio/UIKit/index.html)
+[SunTour](https://treamz.github.io/portfolio/SunTour/index.html)
 
 [POZNAN-CITY2LIVE](https://treamz.github.io/portfolio/poznan/index.html)
 
-[SunTour](https://treamz.github.io/portfolio/SunTour/index.html)
+[FLAT UI KIT](https://treamz.github.io/portfolio/UIKit/index.html)
+
+[PERSONAL BLOG](https://treamz.github.io/portfolio/personalBlog/index.html)
+
+[RSPWN](https://treamz.github.io/rspwn.github.io/)
+
+[OLIOS](https://treamz.github.io/olios.github.io/)
+
+[Checkpoint](https://treamz.github.io/checkpint.github.io/)
+
+[Nadyamaistrenko](https://treamz.github.io/portfolio/nadya/index.html)
+
+[Hairinstyle](https://treamz.github.io/portfolio/hairinstyle/index.html)
+
 
 
 ### C#
