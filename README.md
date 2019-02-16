@@ -1,24 +1,29 @@
 ## Welcome to treamz profile
 
 
-### Верстка
-[Hairinstyle](https://treamz.github.io/hairinstyle.github.io/)
+### Front-End Templates
+[Zeus](#)
 
-[Nadyamaistrenko](https://treamz.github.io/treamz1.github.io/)
+[SunTour](https://treamz.github.io/portfolio/SunTour/index.html)
 
-[Checkpoint](https://treamz.github.io/checkpint.github.io/)
+[PANTOMAX](https://treamz.github.io/portfolio/pantomax/index.html)
 
-[OLIOS](https://treamz.github.io/olios.github.io/)
+[POZNAN-CITY2LIVE](https://treamz.github.io/portfolio/poznan/index.html)
+
+[FLAT UI KIT](https://treamz.github.io/portfolio/UIKit/index.html)
+
+[PERSONAL BLOG](https://treamz.github.io/portfolio/personalBlog/index.html)
 
 [RSPWN](https://treamz.github.io/rspwn.github.io/)
 
-[PERSONAL BLOG](https://treamz.github.io/pblog.github.io/)
+[OLIOS](https://treamz.github.io/olios.github.io/)
 
-[FLAT UI KIT](https://treamz.github.io/flatuikit.github.io/)
+[Checkpoint](https://treamz.github.io/checkpint.github.io/)
 
-[POZNAN-CITY2LIVE](https://treamz.github.io/poznan.github.io/)
+[Nadyamaistrenko](https://treamz.github.io/portfolio/nadya/index.html)
 
-[SunTour](https://treamz.github.io/suntour/)
+[Hairinstyle](https://treamz.github.io/portfolio/hairinstyle/index.html)
+
 
 
 ### C#
