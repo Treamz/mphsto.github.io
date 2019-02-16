@@ -1,0 +1,432 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+body {
+  color: #999999;
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.h5, h5 {
+  font-size: 14px; }
+
+.form-control::-webkit-input-placeholder {
+  color: #999999; }
+
+/* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {
+  color: #999999; }
+
+/* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {
+  color: #999999; }
+
+/* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {
+  color: #999999; }
+
+/* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder {
+  color: #999999; }
+
+/* Microsoft Edge */
+.main {
+  background: #f7f7f7; }
+
+.navbar {
+  padding: 0 1rem 290px 1rem; }
+
+nav {
+  color: #fff; }
+  nav .container {
+    padding: 0; }
+  nav .socials a {
+    padding: 10px 15px;
+    color: #999999;
+    border-left: 1px solid #3c3c3c; }
+  nav .socials:last-of-type {
+    border-right: 1px solid #3c3c3c; }
+  nav .socials a:hover {
+    color: #fff; }
+
+.mnu {
+  width: 100%; }
+
+.mnutoogleer a {
+  padding: 10px 5px;
+  color: #999999;
+  cursor: pointer; }
+.mnutoogleer a:hover {
+  color: #fff; }
+
+.mslider {
+  position: relative;
+  margin-top: -290px; }
+
+.info-slide {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  font-family: Hind, sans-serif;
+  color: #ffffff; }
+  .info-slide .slide-cat {
+    font-size: 18px; }
+
+.indblog {
+  top: 40%;
+  right: 20rem;
+  z-index: 900;
+  position: absolute;
+  display: flex;
+  flex-direction: column; }
+  .indblog span {
+    transform: rotate(90deg); }
+
+.car-ind {
+  padding: 0;
+  margin: 0; }
+
+.carousel-indicators {
+  position: relative;
+  flex-direction: column;
+  margin: 0;
+  bottom: 5px; }
+
+.carousel-indicators li {
+  list-style: none;
+  margin: 10px 10px 10px 5px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid white; }
+
+.car-ind li.active {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.subscribe {
+  padding: 10px 30px; }
+  .subscribe label {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: #212121;
+    padding-right: 1.8rem; }
+
+.container {
+  max-width: 1530px; }
+
+.form-control {
+  border-radius: 0; }
+
+.form-inline .form-control {
+  height: 3rem;
+  width: 30rem;
+  border-radius: 0; }
+
+.blog {
+  padding: 4rem 0; }
+
+.btn {
+  border-radius: 0; }
+
+.btn-primary {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+  padding: .7rem 3rem; }
+
+.btn-card {
+  margin-top: -20px; }
+
+.btn-more {
+  text-transform: uppercase;
+  color: #212121;
+  background-color: #ffffff;
+  border-color: #d7d7d7;
+  padding: .3rem 1rem; }
+
+.btn-cat {
+  text-transform: uppercase;
+  position: relative;
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+  padding: .3rem 1rem;
+  z-index: 999; }
+
+.btn-cat:hover {
+  color: #fff; }
+
+.cat {
+  font-family: Hind, sans-serif;
+  text-transform: uppercase;
+  padding-top: 20px; }
+
+.card {
+  display: inline-block;
+  transition: all .4s;
+  width: 20rem;
+  border-radius: 0; }
+
+.card-img-top {
+  border-radius: 0; }
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  /* Параметры тени */ }
+
+.card-date {
+  font-family: Hind, sans-serif;
+  text-transform: uppercase;
+  padding: 5px; }
+
+.card-title {
+  font-family: Montserrat, sans-serif;
+  color: #212121;
+  text-transform: uppercase;
+  margin-bottom: 0; }
+
+.card-body {
+  padding: 0 1.25rem 1.25rem 1.25rem; }
+
+.card-text {
+  text-transform: none;
+  color: #464646; }
+
+.card-info {
+  width: 100%;
+  position: relative; }
+
+.card-info i {
+  color: #464646;
+  padding: 1rem .25rem; }
+
+.embed-responsive {
+  z-index: 555; }
+
+.quotess .card {
+  background-color: #212429; }
+
+.quotess .card-text {
+  color: #fff; }
+
+.quotess .btn-card {
+  padding-bottom: 40px; }
+  .quotess .btn-card a {
+    color: #212429;
+    background-color: #fff;
+    border-color: #fff; }
+
+.grid-item {
+  padding-bottom: 3rem; }
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+
+footer {
+  padding: 60px 10rem;
+  color: #f9f9fb;
+  background-color: #212429; }
+  footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 0; }
+  footer h4 {
+    font-family: Montserrat, sans-serif; }
+  footer p {
+    font-family: Hind, sans-serif;
+    font-size: 15px;
+    text-transform: none;
+    padding-top: 20px; }
+  footer .tweet-title {
+    text-transform: none;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+  footer .tweet p {
+    padding-top: 0; }
+
+.inst {
+  padding-top: 20px; }
+  .inst img {
+    padding-top: 5px;
+    width: 110px; }
+
+.ffooter {
+  background-color: #17191c;
+  padding: 20px;
+  width: 100%;
+  position: absolute; }
+  .ffooter .copyright li {
+    display: inline-block;
+    padding: 0 5px; }
+  .ffooter a {
+    color: #999999;
+    padding-left: 10px;
+    border-left: 1px solid #999999; }
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 9999;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.2s;
+  /* 0.5 second transition effect to slide in the sidenav */ }
+
+/* The navigation menu links */
+.sidenav a {
+  text-align: center;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1; }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px; }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+
+  .sidenav a {
+    font-size: 18px; } }
+@media only screen and (max-width: 1024px) {
+  .card {
+    max-width: 100%; }
+
+  .form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center; }
+
+  .subscribe label {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: #212121;
+    padding-right: 0; }
+
+  .subscribe {
+    padding: 10px 10rem; }
+    .subscribe .form-inline {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      flex-direction: column;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center; } }
+@media (max-width: 768px) {
+  .card {
+    width: 100%; }
+
+  .navbar {
+    padding: .5rem 1rem .5rem 1rem; }
+
+  .mslider {
+    position: relative;
+    margin-top: 1px; }
+
+  .form-inline .form-control {
+    height: 3rem;
+    width: auto; }
+
+  .col-lg-3 {
+    padding-left: 0;
+    padding-right: 0; }
+
+  footer {
+    padding: 30px 1.5rem;
+    color: #f9f9fb;
+    background-color: #212429; }
+
+  .form-inline .form-control {
+    height: 3rem;
+    width: 18rem; }
+
+  .btn-primary {
+    width: 100%;
+    margin: 0 auto; }
+
+  .indblog {
+    top: 5%;
+    right: 0;
+    z-index: 900;
+    position: absolute;
+    display: flex;
+    flex-direction: column; }
+
+  .carousel-indicators {
+    position: relative;
+    flex-direction: column;
+    margin: 0;
+    bottom: 5px; }
+
+  .info-slide {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: Hind, sans-serif;
+    color: #ffffff; }
+
+  .h1, h1 {
+    font-size: 1.5rem; }
+
+  nav .socials a {
+    padding: 5px 10px;
+    color: #999999;
+    border-left: 1px solid #3c3c3c; }
+
+  nav .form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -ms-flex-align: center;
+    align-items: center; }
+
+  .subscribe {
+    padding: 10px 30px; }
+    .subscribe .form-inline {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      flex-direction: column;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center; } }
+
+/*# sourceMappingURL=main.css.map */
