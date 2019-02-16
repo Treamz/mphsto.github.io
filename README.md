@@ -6,6 +6,8 @@
 
 [SunTour](https://treamz.github.io/portfolio/SunTour/index.html)
 
+[PANTOMAX](https://treamz.github.io/portfolio/pantomax/index.html)
+
 [POZNAN-CITY2LIVE](https://treamz.github.io/portfolio/poznan/index.html)
 
 [FLAT UI KIT](https://treamz.github.io/portfolio/UIKit/index.html)
