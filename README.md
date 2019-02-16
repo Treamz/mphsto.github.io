@@ -6,7 +6,7 @@
 
 [SunTour](https://treamz.github.io/portfolio/SunTour/index.html)
 
-[PANTOMAX](https://treamz.github.io/portfolio/pantomax/index.html)
+[PANTOMAX](https://treamz.github.io/portfolio/pantomax/)
 
 [POZNAN-CITY2LIVE](https://treamz.github.io/portfolio/poznan/index.html)
 
