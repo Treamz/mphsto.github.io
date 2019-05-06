@@ -2,6 +2,7 @@
 
 ### Projects
 [Bablo Bot](https://github.com/Treamz/Money-Maker-Bot)
+(Python(Flask), PHP, VueJS)
 
 ### Front-End Templates
 [Zeus](#)
