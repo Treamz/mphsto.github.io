@@ -37,6 +37,6 @@
 
 ### Support or Contact
 
-[telegram](https://t.me/treamz)
+[telegram](https://t.me/themaintheme)
 
-chrnknzhnkv@gmail.com
+
